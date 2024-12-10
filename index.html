@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Portfolio</title>
     <link rel="stylesheet"href="style.css">
-
     <!--image and navigation-->
         <header>
-        <div class = "container">
+       
+                <div class="navigation">
+                    <nav>                   
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#about me">About me</a>
+                        
+                    </nav>
+                </div>
+           </div>
+        </div>
+
+    </header>
+ <section> 
+ <div class = "container">
 
         <div class = "image"> <img src="pic.png">
         </div>
@@ -24,43 +36,59 @@
               I'm a Web Designer <p> I make interesting web designs suitable for your needs,</p>
               <p>whether it is for personal or for your business.</p>
                 
-                <div class="navigation">
-                    <nav>                   
-                        <a href="#projects">Projects</a>
-                        <a href="skills">Skills</a>
-                        <a href="#contact">Contact</a>
-                        <a href="hire">Hire</a>
-                        
-                    </nav>
-                </div>
-           </div>
-        </div>
-
-    </header>
-
-
-
+            </section>
 
 <!--body-->
-    <section id="about">
+        
+            <section id="about me">
 
-        <div class= "aboutme"> <h2>About Me</h2></div>
+                <h3> About Me</h3>
+                <div class="about"> <p>
+                    I am a fresh graduate of DATA CENTER COLLEGE OF THE PHILIPPINES. I love creating and developing projects that make a difference.
+                    Creating websites like this is one of my hobbies. I love exploring the vast world of websites and create a healthy environment that
+                    connects people to the vast world of the internet. </p>
+                </div>
+            </section>
+  
 
-        <div class="about"> <p>
-            I am a fresh graduate of DATA CENTER COLLEGE OF THE PHILIPPINES. I love creating and developing projects that make a difference.
-            Creating websites like this is one of my hobbies. I love exploring the vast world of websites and create a healthy environment that
-            connects people to the vast world of the internet. </p>
-        </div>
-    </section>      
+
+     
+    
+
+    <p>HTML</p>
+
+    <div class="contain">
+
+
+        <div class="skills html">70%</div>
+      </div>
+      
+      <p>CSS</p>
+      <div class="contain">
+        <div class="skills css">67%</div>
+      </div>
+      
+      <p>JavaScript</p>
+      <div class="contain">
+        <div class="skills js">20%</div>
+      </div>
+      
+      <p>PHP</p>
+      <div class="contain">
+        <div class="skills php">45%</div>
+      </div>
+
+
+
 
 <section id="projects">
     <h2>Projects</h2>
-    <p>HTML PORTFOLIO </p>
+    <p>matulog  </p>
     <div class="project"> 
       
         <a href="link-to-project.com" target="">View Project</a>
     </div>
-    <p> Wala pa</p>
+    <p> ALBION RANK 100 </p>
     <div class="project">  
         <a href="link-to-project.com" target="_blank">View Project</a>
     </div>
@@ -68,14 +96,14 @@
 </section>
 
 
-
-
-
     <!--FORM-->
-<div class="cont">
- 
+<div class="cont" id="contact"> 
+    
    
-    <form action="connect.php" method="post"><h3> If you’d like to get in touch, feel free to reach out by filing out this form </h3>
+    <form action="connect.php" method="post"> 
+        <h3>You can contact me through this email or by filling out the form below<div class="mail">
+        <a href="mailto:jechoneil14@gmail.com">jechoneil14@gmail.com</a></div> 
+        </h3>
     <input type="text" name="Name" placeholder="your name" required>
     <input type="email" name="Email" placeholder="email id" required>
     <input type="text" name="Phone" placeholder="phone number" required>
